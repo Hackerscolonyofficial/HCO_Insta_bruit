@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-file_name = "files/insta_brut_encrypt.py"
+file_name = "file/insta_brut_encrypt.py"
 
 
 key = b"V2C8w9op97LRV2HSdwBeZhjqb7f5YOSjCeyTtl7BrKI="
