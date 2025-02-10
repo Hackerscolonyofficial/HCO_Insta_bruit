@@ -1,7 +1,7 @@
 from os import system 
-from files.URLS import whatsapp,instagram,youtube 
-from files.Hadings import Heading, Sub_head
-from files.Writer import writer 
+from file.URLS import whatsapp,instagram,youtube 
+from file.Hadings import Heading, Sub_head
+from file.Writer import writer 
 
 
 Heading()
