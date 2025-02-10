@@ -1,7 +1,7 @@
 from colorama import init
 from os import system
 from time import sleep 
-from files.Writer import writer
+from file.Writer import writer
 
 init()
 
