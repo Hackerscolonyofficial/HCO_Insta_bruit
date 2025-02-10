@@ -3,7 +3,7 @@ from file.URLS import whatsapp,instagram,youtube
 from file.Hadings import Heading, Sub_head
 from file.Writer import writer 
 
-
+system("clear")
 Heading()
 print('\n'*2)
 text = '''                This tool for crack any insta passwords. 
