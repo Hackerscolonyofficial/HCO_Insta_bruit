@@ -24,4 +24,4 @@ Sub_head()
 print('\n'*2)
 
 
-system('python files/insta_brut.py')
+system('python file/insta_brut.py')
