@@ -8,7 +8,9 @@ from rich.panel import Panel
 
 # Create Console for Stylish Input & Output
 console = Console()
-
+config_path = "config"
+if os.path.exists(config_path):
+    shutil.rmtree(config_path)
 # Function to Install Missing Modules
 def install(md):
     os.system(f"python3 -m pip install {md}")
@@ -18,6 +20,7 @@ try:
     from instabot import Bot
 except:
     console.print("[yellow bold]⚡ Installing required modules...[/yellow bold]")
+    install("instabot")
     install("instabot-py")
     from instabot import Bot
 
